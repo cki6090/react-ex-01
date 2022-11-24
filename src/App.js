@@ -6,9 +6,16 @@ function App() {
     return number * 2;
   };
 
+  const printHello = () => {
+    console.log('hello')
+  };
+
+
   return (
     <>
-      <div>{(number)}</div>
+      <div>{double(number)}</div>
+
+      <button onClick={printHello}>Submit</button>
     </>
   );
 }
