@@ -1,12 +1,15 @@
-import './App.css';
 
 function App() {
+  const number = 1;
+
+  const double = (number) => {
+    return number * 2;
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h2></h2>
-      </header>
-    </div>
+    <>
+      <div>{(number)}</div>
+    </>
   );
 }
 
